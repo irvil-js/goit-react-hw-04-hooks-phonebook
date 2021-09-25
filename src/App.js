@@ -71,10 +71,7 @@ function App() {
       <Section title="Contacts">
         <Filter value={filter} onChange={changeFilter} />
 
-        <ContactList
-          contacts={getVisibleContact()}
-          onDeleteContact={deleteContact}
-        />
+        <ContactList contacts={getVisibleContact()} onClick={deleteContact} />
       </Section>
     </div>
   );
