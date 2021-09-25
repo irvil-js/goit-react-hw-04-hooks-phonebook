@@ -1,0 +1,27 @@
+.label {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.input {
+  display: block;
+  width: 300px;
+  height: 50px;
+  margin-bottom: 25px;
+  border-radius: 5px;
+}
+
+.button {
+  width: auto;
+  height: 50px;
+  padding: 10px 20px;
+  font-size: 20px;
+  color: #fff;
+  background-color: #2b92ff;
+  border-radius: 5px;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #2b05ff;
+}

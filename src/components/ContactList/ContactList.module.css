@@ -1,0 +1,44 @@
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border: 1px solid #2b92ff;
+  border-radius: 5px;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.name {
+  margin-right: 20px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.number {
+  margin-right: 20px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.button {
+  width: auto;
+  height: 50px;
+  padding: 10px 20px;
+  font-size: 20px;
+  color: #fff;
+  background-color: #fd3630;
+  border-radius: 5px;
+}
+
+.button:hover, .button:focus {
+    background-color: #eb043a;
+}
