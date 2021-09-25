@@ -8,9 +8,5 @@ ReactDOM.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById('root'),
 );
-
-
-const link = React.createElement("a", { href: "reactjs.org" }, "Ssylka");
-console.log(link)
